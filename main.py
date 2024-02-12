@@ -53,4 +53,6 @@ end_time = time.time()
 execution_time = end_time - start_time
 
 print("\n")
-print(f"Execution time: {execution_time} seconds")
+print(f"Execution time: {round(execution_time,0)} seconds")
+
+k=input("press close to exit")
